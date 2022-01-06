@@ -50,7 +50,15 @@ while True:
                 time.sleep(3)
 
 
-    break
+        print("Would You Like To Play Again Y/N")
+        R=input()
+        if R == "Y":
+            continue
+        else:
+            break
+
+
+
 
 
 
