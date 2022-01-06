@@ -22,8 +22,11 @@ while True:
         print ("mmmm beans")
         continue
     else:
-        e = int(d)
-
+        try:
+         e = int(d)
+        except ValueError:
+            print("Thats Not A Number")
+            continue
 
 
 
@@ -53,13 +56,7 @@ while True:
         print("Would You Like To Play Again Y/N")
         R=input()
         if R == "Y":
+            s = 0
             continue
         else:
             break
-
-
-
-
-
-
-
