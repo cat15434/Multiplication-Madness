@@ -1,7 +1,7 @@
 import random
 import time
 from pathlib import Path
-import gui
+
 s=0
 with open ((Path(__file__).parent / "highscore.txt").resolve(), "r") as f:
     highscore=f.read()
