@@ -55,7 +55,7 @@ while True:
 
         print("Would You Like To Play Again Y/N")
         R=input()
-        if R == "Y":
+        if R == "Y" or R=="y":
             s = 0
             continue
         else:
